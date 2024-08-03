@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color: rgb(96, 171, 220);
+}
+
+.task-input{
+    margin: 20px 0;
+}
+
+#taskInput{
+    width: 60%;
+    padding: 8px;
+    background-color: rgb(196, 222, 236);
+    border-radius: 30px;
+    border: 2px solid #5dddc1dc; 
+    
+}
+
+button{
+    padding: 8px 20px;
+    background-color: rgb(173, 135, 233);
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li{
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+
+button:disabled {
+   
+    color: gray;
+    cursor:not-allowed;
+}
+
+
+#noTasksMessage{
+    color: gray
+}
+
+#taskListMessage{
+    color: rgb(155, 94, 211);
+    font-size: large;
+    font-weight: 700;
+}
+
+
